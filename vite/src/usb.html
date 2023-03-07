@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TSB test</title>
+  </head>
+  <body>
+    <div class="md:container md:mx-auto">
+      <form>
+          <div class="overflow-hidden shadow sm:rounded-md">
+              <div class="bg-white px-4 py-2 sm:p-6">
+                  <div class="grid grid-cols-6 gap-6">
+                      <div class="col-span-6">
+                          <label for="external_id" class="block text-sm font-medium text-gray-700">External ID</label>
+                          <input type="text" name="external_id" id="external_id" autocomplete="" required placeholder="testtest"
+                            class="form-input mt-1 block w-full rounded-md border-gray-300 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm sm:text-sm 
+                            ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 
+                            focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500
+                            required:text-slate-500 required:border-slate-200 required:shadow-none">
+                      </div>
+                  </div>
+              </div>
+              <div class="px-4 py-2 text-right sm:px-6">
+                  <button type="submit"
+                      class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Save</button>
+              </div>
+          </div>
+      </form>
+  </div>
+</body>
+<script type="module" src="usb.ts"></script>
+</html>
