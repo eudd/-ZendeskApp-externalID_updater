@@ -1,1 +1,1 @@
-# -ZendeskApp-externalID_updater
+# [Zendesk MarketPlace App] External ID Updater
